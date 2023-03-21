@@ -1,0 +1,25 @@
+.btnAgendar{
+    background-color: #76bfac;
+    border: 1px solid #76bfac;
+    padding: 15px 20px;
+    border-radius: 10px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: 0.5s;
+}
+.btnAgendar:hover{
+    /* border: 1px solid #fff; */
+    background-color: #76b4ac;
+    background-image: none;
+}
+.btnAgendar h6{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+.btnAgendar .Whats{
+    color: #fff;
+    font-size: 25px;
+}

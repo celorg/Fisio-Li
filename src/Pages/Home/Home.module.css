@@ -1,0 +1,85 @@
+.home{
+    padding: 2rem;
+    background-color: #97D5D0;
+}
+.titleInicial{
+    flex-direction: column;
+}
+.walkBox{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 1rem;
+    /* border-bottom: 2px solid #fff; */
+    margin-right: 1rem;
+}
+.fisioName{
+    font-size: 25px;
+    text-align: left;
+    color: #fff;
+}
+.walkBox h6{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+}
+.iconWalk{
+    font-size: 45px;
+    color: #fff;
+    padding: 10px;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+.titleInicial h2{
+    color: #fff;
+    font-size: 30px;
+    text-align: left;
+    font-weight: 600;
+    /* padding-bottom: 1rem; */
+    /* border-bottom: 2px solid #fff; */
+}
+.titleInicial p{
+    text-align: left;
+    color: #fff;
+    margin: 1rem 0;
+}
+.imgInicial{
+    border-radius: 40px 0 30px 0;
+    display: none;
+}
+
+.articleHome{
+    margin-bottom: 5rem;
+}
+
+@media screen and (min-width: 960px) {
+    .home{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 4px;
+        flex-direction: unset;
+        min-height: 80vh;
+        background-image: linear-gradient(to bottom, #97D5D0 60%, #fff);
+        /* background-color: #97D5D0; */
+    }
+    .titleInicial{
+        width: 40%;
+    }
+
+    .imgInicial{
+        /* width: 40%; */
+        display: flex;
+        margin-top: 2rem;
+    }
+}
+@media screen and (min-width: 1200px){
+    .home{
+        display: flex;
+        justify-content: center;
+    }
+    .titleInicial{
+        width: 30%;
+    }
+
+}

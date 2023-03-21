@@ -1,0 +1,110 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #97D5D0;
+    
+}
+.logo{
+    width: 80px;
+    height: 80px;
+}
+.checkbtn{
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+.listLinks{
+    display: flex;
+    position: fixed;
+    top: 119px;
+    right: -100%;
+    transition: all .5s;
+    height: auto;
+    width: 80%;
+    flex-direction: column;
+    background-color: #fff;
+    border-left: #fff 1px solid;
+}
+.listLinks li{
+    border-bottom: 1px solid #97D5D0;
+    display: flex;
+}
+
+.listLinks li a{
+    color: #1f1f1f;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;   
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    transition: all .5s;
+}
+.listLinks li a:hover{
+    border-left: 15px solid #97D5D0;
+}
+.ativo{
+    background-color: #97D5D0;
+    color: #fff;
+}
+.check{
+    display: none;
+}
+.check:checked ~ .listLinks{
+    right: 0;
+}
+.btn_agendamento{
+    background-color: #8ac99f;
+    border: 1px solid #8ac99f;
+    padding: 15px 20px;
+    border-radius: 15px;
+    display: none;
+    align-items: center;
+    gap: 0.5rem;
+    transition: 0.5s;
+}
+.btn_agendamento:hover{
+    /* border: 1px solid #fff; */
+    background-color: #6db183 ;
+}
+.btn_agendamento h4{
+    color: #fff;
+}
+.btn_agendamento .iconWhats{
+    color: #fff;
+    font-size: 25px;
+}
+@media screen and (min-width: 960px) {
+    .checkbtn{
+        display: none;
+    }
+    .listLinks{
+        position: initial;
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        background-color: #97D5D0;
+        border: none;
+        gap: 1rem;
+    }
+    .listLinks li{
+        border-bottom: none;
+    }
+    .listLinks li a{
+        color: #eeeeee;
+        padding: 2px 10px;
+        border-bottom: 2px solid transparent;
+        font-weight: 500;
+        transition: 0.5s;
+    }
+    .listLinks li a:hover{
+        border: none;
+        border-bottom: 2px solid #fff;
+        color: #fff;
+    }
+    .btn_agendamento{
+        display: flex;
+    }
+}

@@ -1,0 +1,70 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #97D5D0;
+    padding-top: 2rem;
+    margin-top: 2rem;
+}
+.footerLogo{
+    display: flex;
+    justify-content: center;
+}
+.containerFooter{
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+}
+.containerFooter div{
+    margin: 1rem auto;
+}
+.containerFooter div h4{
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.infoFooter{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.infoFooter li p{
+    color: #fff;
+    font-weight: 300;
+}
+.redesFooter{
+    display: flex;
+    justify-content: left;
+    gap: .5rem;
+}
+.redesFooter li a{
+    color: #f0f0f0;
+    font-size: 40px;
+}
+.mapaFooter{
+    border: none;
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+}
+.copy{
+    border-top: #fff 2px solid;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 10px 0;
+    font-weight: bolder;
+}
+.copy p{
+    font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+    .containerFooter{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        flex-direction: unset;
+    }
+}

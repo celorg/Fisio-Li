@@ -1,0 +1,73 @@
+.titleEspecialidades{
+    color: #76bfac;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 2rem;
+}
+.paragrafoEspecialidades{
+    text-align: justify;
+    width: 80%;
+    margin: 2rem auto;
+    font-size: 400;
+}
+.containerEspecialidades{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 2rem auto;
+    gap: 1rem;
+}
+.boxEspecialidades{
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+    text-align: center;
+    padding: 1rem 1rem;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, -10, 0.40) 3px 3px 4px;
+    margin: 1rem 0;
+    border: 1px solid transparent;
+}
+.boxEspecialidades:hover{
+    border: 1px solid #68a797;
+}
+.iconsEspecialidades{
+    margin: 1rem auto;
+    font-size: 40px;
+}
+.boxEspecialidades h6{
+    font-size: 16px;
+    color: #76bfac;
+}
+.boxEspecialidades p{
+    font-size: 12px;
+    text-align: justify;
+    margin: 1rem 0;
+}
+.boxEspecialidades a{
+    width: 100%;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    background-image: linear-gradient(to left, #76bfac, #68a797);
+}
+
+@media screen and (min-width: 960px) {
+    .containerEspecialidades{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 1rem auto;
+        gap: 2rem;
+    }
+    .boxEspecialidades{
+        width: 200px;
+    }
+    .paragrafoEspecialidades{
+        width: 80%;
+        text-align: left;
+    }
+}

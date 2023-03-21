@@ -1,0 +1,88 @@
+.containerQuemSomos{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin: 3rem 0;
+}
+.textoSobre{
+    width: 40%;
+    text-align: left;
+    color: #1f1f1f;
+    opacity: 0.9;
+}
+.textoSobre h4{
+    margin-bottom: 2rem;
+    color: #76bfac;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: left;
+}
+.containerBox{
+    width: 300px;
+    margin-right: 1rem;
+}
+.boxContato{
+    padding: 1rem;
+    border: 2px solid #68a797 ;
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    background-image: linear-gradient(to left, #96d6c5, #68a797);
+}
+.boxContato h5{
+    font-size: 25px;
+    color: #fff;
+    font-weight: 400;
+}
+.listaContatos{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    padding-bottom: 1rem;
+    border-bottom: 0.5px solid #ebebeb;
+}
+.listaContatos li {
+    padding: 5px 0;
+    text-align: left;
+}
+.listaContatos li p{
+    color: #fff ;
+    font-weight: 300;
+    font-size: 15px;
+}
+.listaIcons{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.listaIcons li p{
+    color: #ebebeb;
+    font-size: 35px;
+}
+
+.boxHorarios{
+    padding: 1rem;
+    border: 1px solid #fff;
+    border-radius: 0 0 20px 20px;
+    width: 100%;
+    background-color: #fff;
+    border: #68a797 2px solid;
+}
+.boxHorarios h5{
+    color: #68a797;
+    font-size: 25px;
+    font-weight: 400;
+}
+.listaHorarios{
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+}
+.listaHorarios li{
+    display: flex;
+    justify-content: space-between;
+}
+.listaHorarios li p{
+    color: #506175;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}

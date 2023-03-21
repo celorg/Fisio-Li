@@ -1,0 +1,28 @@
+.containerPerguntas{
+    width: 80%;
+    margin: 0 auto;
+}
+.containerPerguntas h4{
+    color: #76bfac;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+.details{
+    text-align: left;
+    background-color: #eff5f2;
+    color: #76bfac;
+    padding: 10px 15px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    /* border: #76bfac 1px solid; */
+    border: transparent 1px solid;
+}
+.details:hover{
+    border: #76bfac 1px solid;
+}
+.details p{
+    /* border: #76bfac 1px solid; */
+    padding: 1rem ;
+}
